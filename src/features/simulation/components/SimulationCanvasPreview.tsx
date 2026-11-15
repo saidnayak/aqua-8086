@@ -550,8 +550,8 @@ export function SimulationCanvasPreview({
 
         {/* Viewport Overlay Floating HUD */}
         <div className="absolute top-4 left-4 pointer-events-none flex flex-col gap-2 max-w-xs">
-          <div className="p-3.5 rounded-xl bg-slate-950/85 backdrop-blur-md border border-slate-800 text-xs shadow-2xl">
-            <div className="flex items-center justify-between text-[11px] font-mono text-cyan-400 mb-2">
+          <div className="p-3.5 rounded-xl bg-slate-950/85 backdrop-blur-md border border-slate-800 text-xs shadow-2xl min-w-[220px]">
+            <div className="flex items-center justify-between gap-4 text-[11px] font-mono text-cyan-400 mb-2">
               <span className="flex items-center gap-1.5 font-bold">
                 <Activity className="w-3.5 h-3.5" /> HARDWARE TELEMETRY
               </span>

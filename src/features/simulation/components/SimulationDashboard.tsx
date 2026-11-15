@@ -227,7 +227,7 @@ export function SimulationDashboard() {
       {/* 2. 3D Viewport Connected to Live State */}
       <div className="relative">
         {highlightedComponent && activeTab === "guided" && (
-          <div className="absolute top-4 right-4 z-10 p-2 px-3 rounded-lg bg-slate-950/80 border border-cyan-500/40 text-cyan-300 font-mono text-xs backdrop-blur-md flex items-center gap-1.5 shadow-lg pointer-events-none">
+          <div className="absolute top-16 right-4 z-10 p-2 px-3 rounded-lg bg-slate-950/80 border border-cyan-500/40 text-cyan-300 font-mono text-xs backdrop-blur-md flex items-center gap-1.5 shadow-lg pointer-events-none">
             <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
             <span>Target Subsystem: <strong className="uppercase">{highlightedComponent}</strong></span>
           </div>

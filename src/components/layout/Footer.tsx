@@ -75,25 +75,25 @@ export function Footer() {
               Hardware Specs
             </h4>
             <ul className="space-y-2 text-xs font-mono text-slate-300">
-              <li className="flex justify-between border-b border-slate-800/60 pb-1.5">
+              <li className="flex justify-between gap-2 border-b border-slate-800/60 pb-1.5">
                 <span className="text-slate-400">CPU</span>
-                <span className="text-cyan-400">Intel 8086 (16-bit)</span>
+                <span className="text-cyan-400 text-right">Intel 8086 (16-bit)</span>
               </li>
-              <li className="flex justify-between border-b border-slate-800/60 pb-1.5">
+              <li className="flex justify-between gap-2 border-b border-slate-800/60 pb-1.5">
                 <span className="text-slate-400">Interface</span>
-                <span className="text-cyan-400">8255A PPI</span>
+                <span className="text-cyan-400 text-right">8255A PPI</span>
               </li>
-              <li className="flex justify-between border-b border-slate-800/60 pb-1.5">
+              <li className="flex justify-between gap-2 border-b border-slate-800/60 pb-1.5">
                 <span className="text-slate-400">Operating Mode</span>
-                <span className="text-slate-200">Mode 0 (Basic I/O)</span>
+                <span className="text-slate-200 text-right">Mode 0 (Basic I/O)</span>
               </li>
-              <li className="flex justify-between border-b border-slate-800/60 pb-1.5">
+              <li className="flex justify-between gap-2 border-b border-slate-800/60 pb-1.5">
                 <span className="text-slate-400">Control Word</span>
-                <span className="text-amber-400">90H (10010000b)</span>
+                <span className="text-amber-400 text-right">90H (10010000b)</span>
               </li>
-              <li className="flex justify-between border-b border-slate-800/60 pb-1.5">
+              <li className="flex justify-between gap-2 border-b border-slate-800/60 pb-1.5">
                 <span className="text-slate-400">Control Method</span>
-                <span className="text-emerald-400">Hysteresis Loop</span>
+                <span className="text-emerald-400 text-right">Hysteresis Loop</span>
               </li>
             </ul>
           </div>
